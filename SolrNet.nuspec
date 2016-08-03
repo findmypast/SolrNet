@@ -17,5 +17,7 @@
   </metadata>
   <files>
     <file src="SolrNet\bin\Release\SolrNet.dll" target="lib" />
+    <file src="Castle.Facilities.SolrNetIntegration\bin\Release\Castle.Facilities.SolrNetIntegration.dll" target="lib" />
+    <file src="HttpWebAdapters\bin\Release\HttpWebAdapters.dll" target="lib" />
   </files>
 </package>
