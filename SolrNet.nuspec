@@ -1,20 +1,18 @@
 <?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>SolrNet\bin\Debug\SolrNet.dll</id>
-    <version>1.0.0</version>
-    <authors>jdarrer</authors>
-    <owners>jdarrer</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <id>SolrNet</id>
+    <version>0.5.0-alpha2-fmp</version>
+    <title>SolrNet</title>
+    <authors>Mauricio Scheffer and contributors (including BrightSolid)</authors>
+    <owners>BrightSolid</owners>
+    <licenseUrl>https://raw.githubusercontent.com/mausch/SolrNet/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/mausch/SolrNet</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package description</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2016</copyright>
-    <tags>Tag1 Tag2</tags>
+    <description>Apache Solr client</description>
+    <language>en-US</language>
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+      <dependency id="CommonServiceLocator" version="[1.0]" />
     </dependencies>
   </metadata>
 </package>
