@@ -15,4 +15,7 @@
       <dependency id="CommonServiceLocator" version="[1.0]" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="SolrNet\bin\Release\SolrNet.dll" target="lib" />
+  </files>
 </package>
